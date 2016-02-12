@@ -260,7 +260,7 @@ bpwatch start dump_cache
 
 bpwatch stop dump_cache
 
-${BIN_DIR}/collectd-install.sh ${BUILD_DIR}"
+${BIN_DIR}/collectd-install.sh ${BUILD_DIR}
 
 # ### Fin.
 if [[ ! "$DOCKER_BUILD" ]]; then
