@@ -3,6 +3,10 @@
 build_dir=$1
 my_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+echo "build_dir is ${build_dir}"
+echo "my_dir is ${my_dir}"
+ls -l $my_dir
+
 cp $my_dir/collectd*.sh $build_dir
 
 pushd $build_dir
